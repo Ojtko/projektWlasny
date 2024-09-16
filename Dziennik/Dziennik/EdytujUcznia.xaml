@@ -1,0 +1,20 @@
+﻿<Window x:Class="Dziennik.EdytujUcznia"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edytuj ucznia" Height="300" Width="400">
+    <StackPanel Margin="10">
+        <TextBlock Text="Imie:"/>
+        <TextBox x:Name="ImieTextBox"/>
+
+        <TextBlock Text="Nazwisko:"/>
+        <TextBox x:Name="NazwiskoTextBox"/>
+
+        <TextBlock Text="Opis:"/>
+        <TextBox x:Name="OpisTextBox"/>
+
+        <TextBlock Text="Ocena:"/>
+        <TextBox x:Name="OcenaTextBox"/>
+
+        <Button Content="Zapisz" Click="SaveButton_Click" Margin="0,10,0,0"/>
+    </StackPanel>
+</Window>
