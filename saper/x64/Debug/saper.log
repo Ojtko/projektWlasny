@@ -1,0 +1,4 @@
+﻿  saper.cpp
+C:\Users\Wojtek\Downloads\saper\saper\saper.cpp(65,56): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\Wojtek\Downloads\saper\saper\saper.cpp(195,14): warning C4244: "return": konwersja z "WPARAM" do "int", możliwa utrata danych
+  saper.vcxproj -> C:\Users\Wojtek\Downloads\saper\saper\x64\Debug\saper.exe
